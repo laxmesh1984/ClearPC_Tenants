@@ -1,0 +1,8 @@
+2021-09-29 10:09:33 INFO  Turner_Login_Logout_Turner:23 - Navigated to Production Login Portal
+2021-09-29 10:09:674 INFO  Turner_Login_Logout_Turner:31 - Valid username is entered in usename field
+2021-09-29 10:09:850 INFO  Turner_Login_Logout_Turner:40 - Clicked on Continue button
+2021-09-29 10:09:964 INFO  Turner_Login_Logout_Turner:49 - Entered valid password
+2021-09-29 10:09:649 INFO  Turner_Login_Logout_Turner:63 - Clicked on Login button of PC CLEAR tenant
+2021-09-29 10:09:665 INFO  Turner_Login_Logout_Turner:78 - Logged out successfully
+2021-09-29 10:09:162 INFO  CLEAR_User_Function:921 - Expected Content Type asset is - Login, and Actual Content Type asset displayed is - Login, is Matching
+2021-09-29 10:09:714 INFO  Turner_Login_Logout_Turner:89 - Browser is closed

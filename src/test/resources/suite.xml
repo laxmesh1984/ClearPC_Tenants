@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+
+<suite name="ClearPC" verbose="2" parallel="classes">
+    <test name="Sanity" >
+    <packages>
+    <package name=com.cucumber.runner/>
+        <classes>
+            <class name="com.cucumber.runner.RunCukesTest" />
+        </classes>
+        </packages>
+    </test>
+</suite>
+
