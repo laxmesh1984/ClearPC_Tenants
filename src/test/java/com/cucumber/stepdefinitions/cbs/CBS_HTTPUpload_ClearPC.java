@@ -20,13 +20,13 @@ public class CBS_HTTPUpload_ClearPC {
 		CBS_ClearPC_Locators.getlocators();
 		CLEAR_User_Function.click(CBS_ClearPC_Locators.CBS_LABEL_X);
 		Thread.sleep(2000);
-		CLEAR_User_Function.Doubleclick(CBS_ClearPC_Locators.Supportproject_x);
+		CLEAR_User_Function.click(CBS_ClearPC_Locators.Folder_toggle_x);
 		log.info("folder selected for HTTP UPload"); 
 		Reporter.addStepLog("Searched for an asset");		
 		CLEAR_User_Function.sleep(5000);
-		CLEAR_User_Function.Doubleclick(CBS_ClearPC_Locators.Automation_folder_x);
+		CLEAR_User_Function.click(CBS_ClearPC_Locators.folder_From_X);
 		log.info("Automation folder selected for HTTP UPload");
-		CLEAR_User_Function.sleep(5000);	
+		Thread.sleep(25000);
 		
 	}
 		
